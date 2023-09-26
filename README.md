@@ -1,5 +1,5 @@
 # TercerapreentregaLlamosas
-1. clonar el git hub: usando git clone 
+1. clonar el git hub: usando git clone https://github.com/DavidLlamosas/TercerapreentregaLlamosas.git
 
 - Se mostrará la pantalla de inicio con solo arrancar el server.
 - Luego se podra crear diferentes cosas, pero antes se deberá colocar en "Creacion", desde aqui luego podra selecionar Crear cursos, Crear profesores, etc.
