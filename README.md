@@ -1,4 +1,6 @@
 # TercerapreentregaLlamosas
+1. clonar el git hub: usando git clone 
+
 - Se mostrará la pantalla de inicio con solo arrancar el server.
 - Luego se podra crear diferentes cosas, pero antes se deberá colocar en "Creacion", desde aqui luego podra selecionar Crear cursos, Crear profesores, etc.
 - De a acuerdo al model que cree se podra rellenar y luego se coloca en el boton Guardar y listo se podrá confirmar eso en la base de datos del sql creado con el super usuario.
