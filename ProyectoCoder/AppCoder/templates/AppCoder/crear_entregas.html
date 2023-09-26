@@ -1,0 +1,28 @@
+
+{% extends "AppCoder/padre2.html" %}     <!--- Evita que copies todo el codigo de padre a inicio-->
+
+{% block titulo %}    
+Formulario de Creacion de Entregas
+
+{% endblock %}
+
+{% block formulario %}
+<br>
+<form action="/AppCoder/creacion/crearentregas/" method="POST" >         {% csrf_token %}
+
+    <p>Nombre: <input type="text" name="nombre"></p>
+
+    <p>Apellido: <input type="text" name="apellido"></p>
+
+    <p>Curso: <input type="text" name="curso"></p>
+    
+    <p>Fecha De Entrega: <input type="datetime" name="fechadeentrega"></p>
+
+    <p>Entregado: 
+        <input type="radio" name="entregado" value="True"> Sí
+        <input type="radio" name="entregado" value="False"> No
+    
+    <input type="submit" value="Guardar">
+
+</form>
+{% endblock %}

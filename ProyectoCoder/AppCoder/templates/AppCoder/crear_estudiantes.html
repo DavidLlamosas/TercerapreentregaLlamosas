@@ -1,0 +1,22 @@
+
+{% extends "AppCoder/padre2.html" %}     <!--- Evita que copies todo el codigo de padre a inicio-->
+
+{% block titulo %}    
+Formulario de Creacion de Estudiantes
+
+{% endblock %}
+
+{% block formulario %}
+<br>
+<form action="/AppCoder/creacion/crearestudiantes/" method="POST" >         {% csrf_token %}
+
+    <p>Nombre: <input type="text" name="nombre"></p>
+
+    <p>Apellido: <input type="text" name="apellido"></p>
+
+    <p>Email: <input type="text" name="email"></p>
+
+    <input type="submit" value="Guardar">
+
+</form>
+{% endblock %}
